@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fluid Inventory UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Inventory System</h1>
+
+<div class="inputBox">
+  <input id="name" placeholder="Product Name">
+  <input id="price" type="number" placeholder="Price">
+  <input id="qty" type="number" placeholder="Qty">
+  <button onclick="addProduct()">Add</button>
+</div>
+
+<div id="inventory" class="inventory"></div>
+
+<div class="billBox">
+  <h2>Total: ₹<span id="total">0</span></h2>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
